@@ -8,6 +8,8 @@ This document is intended as a user manual for the plantinformatics.io instance 
 
 Users wishing to register on plantinformatics.io can apply for an account using the **Sign Up** tab on the landing page, or navigate directly to plantinformatics.io/signup.
 
+![signup](https://user-images.githubusercontent.com/20571319/44134336-d2dca14a-a0a7-11e8-9a9c-53111690f206.png)
+
 Once an email address and password has been entered, click **Submit**. Once the account has been approved by an administrator, you will be able to log in to the site.
 
 ### Logging in
