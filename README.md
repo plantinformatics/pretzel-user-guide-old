@@ -30,7 +30,7 @@ Clicking the **+** to the left of a *block* name in Explorer will load the data 
 
 Alignments are generated when loaded *blocks* share *features* - lines will be drawn between *features* of the same name.
 
-#### Aligning genetic maps
+### Aligning genetic maps
 
 Select the first genetic map you want to align. For example, we will load chromosome 2B of the `Avalon_x_Cadenza` genetic map.
 
@@ -41,3 +41,14 @@ Then select another genetic map chromosome to align. Note that you can select an
 ![loadGenetic2](https://user-images.githubusercontent.com/20571319/44134094-91ee8d48-a0a6-11e8-971f-d9bdef3f157a.png)
 
 Green lines are drawn between features (in this case, marker names) in common between the two maps.
+
+### Inverting genetic maps
+
+It is common for genetic map linkage groups to be inverted relative to conventional short arm to long arm order.
+
+![invertedmap1](https://user-images.githubusercontent.com/20571319/44134985-712a28f2-a0aa-11e8-882f-2504057ee7e3.png)
+
+Mouse-over on the axis title will bring up a menu. Clicking the *up/down* arrow will invert the map.
+
+![invertedmap2](https://user-images.githubusercontent.com/20571319/44134984-70c4cf48-a0aa-11e8-9a08-e97a4871f547.png)
+
