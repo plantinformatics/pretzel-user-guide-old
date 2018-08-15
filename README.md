@@ -20,7 +20,9 @@ Once your account has been approved, you can log in by clicking the **Log In** t
 
 Map Viewer allows alignment of genetic maps, physical maps, and any other linearly-represented data. Pretzel is pre-loaded with public data relevant to wheat pre-breeding research.
 
-### Selecting a dataset
+### Selecting a *dataset* and *block*
+
+Available data in Pretzel is organised into *datasets* which contain one or more *blocks*. In most cases, the *dataset* is some genome-scale data, such as a genetic map or physical map, and the *blocks* will correspond to linkage groups or chromosomes.
 
 The list of available *datasets* can be viewed under the **Explorer** tab in Map Viewer. Clicking on a *dataset* name displays metadata associated with the *dataset* in the right-hand panel.
 
@@ -29,6 +31,12 @@ Clicking the **+** button to the left of the dataset name in Explorer will list 
 Clicking the **+** to the left of a *block* name in Explorer will load the data in Map Viewer.
 
 Alignments are generated when loaded *blocks* share *features* - lines will be drawn between *features* of the same name.
+
+### Deleting a loaded *block*
+
+Moving the cursor over the axis title will bring up a menu. Clicking the *X* will delete the map.
+
+![deleteblock](https://user-images.githubusercontent.com/20571319/44135918-3e61b954-a0ae-11e8-933b-83f2c5f13f37.png)
 
 ### Aligning genetic maps
 
@@ -48,7 +56,16 @@ It is common for genetic map linkage groups to be inverted relative to conventio
 
 ![invertedmap1](https://user-images.githubusercontent.com/20571319/44134985-712a28f2-a0aa-11e8-882f-2504057ee7e3.png)
 
-Mouse-over on the axis title will bring up a menu. Clicking the *up/down* arrow will invert the map.
+Moving the cursor over the axis title will bring up a menu. Clicking the *up/down* arrow will invert the map.
 
 ![invertedmap2](https://user-images.githubusercontent.com/20571319/44134984-70c4cf48-a0aa-11e8-9a08-e97a4871f547.png)
 
+### Dragging maps
+
+Moving the cursor over any axis tick text, the cursor icon will change to indicate the axis can be dragged and moved.
+
+#### Re-ordering axes
+
+The order of axes can be re-arranged by dragging maps around.
+
+![dragmap1](https://user-images.githubusercontent.com/20571319/44136608-c187fe68-a0b0-11e8-9008-7f082c305590.gif)
