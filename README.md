@@ -1,2 +1,1 @@
-# pretzel-user-guide
-Pretzel User Guide
+# plantinformatics.io / Pretzel User Guide
