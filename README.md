@@ -77,3 +77,34 @@ When dragging an axis, *drop-zones* denoted by light blue squares at the top and
 This is particularly useful when loading genetic maps which have multiple linkage groups per chromosome, such as the following example.
 
 ![stackmap](https://user-images.githubusercontent.com/20571319/44179887-cdf07e00-a13c-11e8-9a92-eafd43797a3e.gif)
+
+### Brushing maps
+
+Moving the mouse over an axis will change the cursor to a *+* sign. Clicking and dragging up/down will create a *brush* - a selection of an interval in the axis. Any features inside the brushed region will be listed in the table of *features* in the right panel. Moving the mouse over the features in the table will highlight the feature in the axis with a yellow dot.
+
+#### Editing the brush
+
+Once a brush has been made, it can be moved up and down the axis, or extended in either direction.
+
+### Zooming maps
+
+![brushing](https://user-images.githubusercontent.com/20571319/44180317-05602a00-a13f-11e8-96b1-d9568585807a.gif)
+
+Once a *brush* has been made, clicking the *zoom* button will *zoom* the axis to the interval defined by the *brush*.
+
+![zoom1](https://user-images.githubusercontent.com/20571319/44180321-0a24de00-a13f-11e8-9602-0f5100b8b6b9.gif)
+
+### Loading physical genomes
+
+In addition to genetic maps, Pretzel is pre-loaded with the International Wheat Genome Sequencing Consortium (IWGSC) RefSeq v1.0 genome assembly pseudomolecules, with High Confidence and Low Confidence gene annotations and 90k marker positions available as *feature tracks*.
+
+Before loading genes or marker *tracks*, the chromosome should be loaded first.
+
+![loadphysical1](https://user-images.githubusercontent.com/20571319/44186251-a957ce80-a15b-11e8-83e5-d1bffcb75765.png)
+
+An axis is drawn with the full length of the pseudomolecule, but no features are loaded. Users can then select which *child* datasets to load into this axis: for example, gene annotations or marker positions.
+
+Here we load the 90k marker positions for chromosome 7A, and then select a genetic map to align.
+
+![physicaltogenetic](https://user-images.githubusercontent.com/20571319/44186403-909be880-a15c-11e8-9b3f-f064dfce83c4.gif)
+
