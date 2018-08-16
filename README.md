@@ -69,3 +69,11 @@ Moving the cursor over any axis tick text, the cursor icon will change to indica
 The order of axes can be re-arranged by dragging maps around.
 
 ![dragmap1](https://user-images.githubusercontent.com/20571319/44136608-c187fe68-a0b0-11e8-9008-7f082c305590.gif)
+
+#### Stacking axes
+
+When dragging an axis, *drop-zones* denoted by light blue squares at the top and bottom of other loaded axes will become highlighted. Dragging the axis to one of these *drop-zones* will *stack* the axes on top of each other.
+
+This is particularly useful when loading genetic maps which have multiple linkage groups per chromosome, such as the following example.
+
+![stackmap](https://user-images.githubusercontent.com/20571319/44179887-cdf07e00-a13c-11e8-9a92-eafd43797a3e.gif)
