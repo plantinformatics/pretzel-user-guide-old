@@ -108,3 +108,29 @@ Here we load the 90k marker positions for chromosome 7A, and then select a genet
 
 ![physicaltogenetic](https://user-images.githubusercontent.com/20571319/44186403-909be880-a15c-11e8-9b3f-f064dfce83c4.gif)
 
+
+## Uploading data
+
+Users are able to upload data by clicking the Upload tab in the left panel of Map Viewer. By default, uploaded data is accessible only to the user who uploaded it. Users are also able to make data accessible to other users (see below).
+
+Data can be uploaded in CSV format, JSON format or cut and pasted from a spreadsheet application such as Excel.
+
+### Uploading as CSV
+
+Select the CSV option under Data Specification.
+
+![image](https://user-images.githubusercontent.com/20571319/48755988-83f2d780-eceb-11e8-83a5-496425c5d9ba.png)
+
+To upload a new dataset, select "new" under *Dataset* and enter the name of the dataset.
+
+If the dataset is a genetic map, then *Parent* should be None. If you are defining positions inside an existing dataset, such as your own marker positions inside a genome assembly already available in Pretzel, you should select that reference genome as the *Parent*.
+
+For example, if you are defining the location of markers in the IWGSC RefSeq v1.0 assembly, select `Triticum_aestivum_IWGSC_RefSeq_v1.0` as the parent. 
+
+For all genetic and physical map data, type should be *linear*.
+
+*Namespace* can be used to define a distinct set of names for a marker or gene set. This is useful for example when a set of markers includes as aliases the index position in the array, so that multiple marker sets may define a marker named "1", for example.
+
+In particular, if you are uploading a genetic map using 90k markers, *Namespace* should be `90k`. This will take advantage of the aliases defined for 90k markers. Note that if you omit namespace in this case, only direct links will be drawn (between markers of the same exact name).
+
+To upload the map data itself, you can either select a CSV file on your computer by clicking Choose File, or cut and paste into the table directly. Feature, Block and Position refer to marker, chromosome (or linkage group) and position.
